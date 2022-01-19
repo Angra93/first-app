@@ -1,4 +1,4 @@
-package HW_1;
+package ru.itsjava.hw_1;
 
 
 import java.util.Scanner;
@@ -100,18 +100,18 @@ public class HWScanner {
     }
 
     public static void threeNumbersAreReadFromTheConsoleFindTheMinimumOfThreeNumbers(Scanner console) {
-//        System.out.println("Введите 3 числа");
-//        int num1 = console.nextInt();
-//        int num2 = console.nextInt();
-//        int num3 = console.nextInt();
-//
-//        if (num1 <= num2 && num1 <= num3) {
-//            System.out.println(num1);
-//        } else if (num2 < num1 && num2 <= num3) {
-//            System.out.println(num2);
-//        } else {
-//            System.out.println(num3);
-//        }
+        System.out.println("Введите 3 числа");
+        int num1 = console.nextInt();
+        int num2 = console.nextInt();
+        int num3 = console.nextInt();
+
+        if (num1 <= num2 && num1 <= num3) {
+            System.out.println(num1);
+        } else if (num2 < num1 && num2 <= num3) {
+            System.out.println(num2);
+        } else {
+            System.out.println(num3);
+        }
     }
 
     public static void theConscriptProgram(Scanner console) {
@@ -143,23 +143,23 @@ public class HWScanner {
     }
 
     public static void fromTheConsoleWeReadTheCoefficientsOfTheQuadraticQquation(Scanner console) {
-        System.out.print("Введите значение a, b, c");
-        double a = console.nextDouble();
-        double b = console.nextDouble();
-        double c = console.nextDouble();
-
-        double d = b * b - 4 * a * c;
-
-        if (d > 0) {
-            double x1 = (-b - Math.sqrt(d)) / (2 * a);
-            double x2 = (-b + Math.sqrt(d)) / (2 * a);
-            System.out.println("Корни уравнения: x1 = " + x1 + ", x2 = " + x2);
-        } else if (d == 0) {
-            double x;
-            x = -b / (2 * a);
-            System.out.println("Уравнение имеет единственный корень: x = " + x);
-        } else {
-            System.out.println("Уравнение не имеет действительных корней");
-        }
+//        System.out.print("Введите значение a, b, c");
+//        double a = console.nextDouble();
+//        double b = console.nextDouble();
+//        double c = console.nextDouble();
+//
+//        double d = b * b - 4 * a * c;
+//
+//        if (d > 0) {
+//            double x1 = (-b - Math.sqrt(d)) / (2 * a);
+//            double x2 = (-b + Math.sqrt(d)) / (2 * a);
+//            System.out.println("Корни уравнения: x1 = " + x1 + ", x2 = " + x2);
+//        } else if (d == 0) {
+//            double x;
+//            x = -b / (2 * a);
+//            System.out.println("Уравнение имеет единственный корень: x = " + x);
+//        } else {
+//            System.out.println("Уравнение не имеет действительных корней");
+//        }
     }
 }

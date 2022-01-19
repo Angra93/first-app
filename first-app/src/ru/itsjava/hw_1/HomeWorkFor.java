@@ -1,7 +1,4 @@
-package HW_1;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package ru.itsjava.hw_1;
 
 public class HomeWorkFor {
     public static void main(String[] args) {

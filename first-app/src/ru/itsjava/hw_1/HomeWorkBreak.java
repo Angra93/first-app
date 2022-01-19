@@ -1,4 +1,4 @@
-package HW_1;
+package ru.itsjava.hw_1;
 
 import java.util.Arrays;
 
@@ -52,8 +52,9 @@ public class HomeWorkBreak {
 
         searchMinElem(numbersArray);
         System.out.println("Минимальный элемент: " + searchMinElem(numbersArray));
+
         getElemDivision(numbersArray);
-        System.out.println("Элементы массива делящиеся на 5 = " + getElemDivision(numbersArray));
+       // System.out.println("Элементы массива делящиеся на 5 " + getElemDivision(numbersArray));
 
         searchMinElem(numbersArray);
         System.out.println(Arrays.toString(numbersArray));
@@ -76,15 +77,16 @@ public class HomeWorkBreak {
     }
 
     //2.Вывести элементы массива, делящиеся на 5
-    public static int getElemDivision(int[] array) {
-        int five = array[0];  //Как возвратить остальное? у меня не получается ='(
+    public static void getElemDivision(int[] array) {
+        int five = array[0];
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 5 == 0 && array[i] != 0) {
-                array[i] = five;
+                //array[i] = five;
+                System.out.println("Элементы массива делящиеся на 5: " + array[i]);
             }
         }
-        return five;
+       // return five;
     }
 
     //3. Найти сумму элементов массива с четными индексами

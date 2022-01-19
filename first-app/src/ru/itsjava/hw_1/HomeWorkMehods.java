@@ -1,4 +1,4 @@
-package HW_1;
+package ru.itsjava.hw_1;
 
 public class HomeWorkMehods {
     public static void main(String[] args) {

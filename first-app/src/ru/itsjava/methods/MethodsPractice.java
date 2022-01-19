@@ -34,7 +34,7 @@ public class MethodsPractice {
         if (num1 > num2) {
             System.out.println("Максимум: " + num1);
         } else {
-            System.out.println("Мксимум: " + num2);
+            System.out.println("Максимум: " + num2);
         }
 
     }
