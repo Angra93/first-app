@@ -2,8 +2,12 @@ package ru.itsjava.oop_HW;
 
 public class Figure {
 
-    public void printNumber(){
-        int num1 = 1;
-        System.out.println(num1);
+    public void perimert() {
+
+        System.out.println("периметр");
+    }
+
+    public void area() {
+        System.out.println("площадь");
     }
 }

@@ -11,7 +11,12 @@ public class Triangle extends Figure {
         this.num3 = num3;
     }
 
-    public void printTriangle() {
-        System.out.println(num1 + " " + num2 + " " + num3);
+    public void perimert() {
+        System.out.println(num1 + num2 + num3);
+    }
+
+    public void area() {
+        float p = (num1 + num2 + num3) / 2F;
+        System.out.println((p - num1) * (p - num2));
     }
 }

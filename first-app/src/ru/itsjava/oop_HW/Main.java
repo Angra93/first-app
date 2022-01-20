@@ -23,15 +23,22 @@ public class Main {
         }
 
         Figure figure = new Figure();
-        figure.printNumber();
+        figure.perimert();
 
-        Triangle triangle = new Triangle(5, 5, 4);
-        triangle.printTriangle();
 
-        Rectangle rectangle = new Rectangle(2, 5, 5, 2);
-        rectangle.printRectangle();
+        Figure triangle = new Triangle(5, 5, 7);
+        triangle.perimert();
 
-        Square square = new Square(5, 5, 5, 5);
-        square.printSquare();
+
+        Figure rectangle = new Rectangle(2, 5);
+        rectangle.perimert();
+
+        Figure square = new Square(5);
+        square.perimert();
+
+        figure.area();
+        triangle.area();
+        rectangle.area();
+        square.area();
     }
 }
