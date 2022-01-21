@@ -17,6 +17,7 @@ public class Triangle extends Figure {
 
     public void area() {
         float p = (num1 + num2 + num3) / 2F;
-        System.out.println(p);
+
+        System.out.println(Math.sqrt(p * (p - num1) * (p - num2) * (p - num3)));
     }
 }
