@@ -40,5 +40,9 @@ public class Main {
         triangle.area();
         rectangle.area();
         square.area();
+
+        Figure circle = new Circle(5);
+        circle.area();
+
     }
 }
