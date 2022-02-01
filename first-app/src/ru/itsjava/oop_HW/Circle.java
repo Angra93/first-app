@@ -1,7 +1,7 @@
 package ru.itsjava.oop_HW;
 
 public class Circle extends Figure{
-    private static int num1;
+   // private static int num1;
 
 
     public Circle(int num1) {
