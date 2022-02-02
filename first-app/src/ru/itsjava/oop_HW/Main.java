@@ -40,9 +40,11 @@ public class Main {
         triangle.area();
         rectangle.area();
         square.area();
+        System.out.println("Круг");
 
-        Figure circle = new Circle(5);
+        Figure circle = new Circle();
         circle.area();
+
 
     }
 }
