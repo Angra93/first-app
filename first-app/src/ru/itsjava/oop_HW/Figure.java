@@ -5,7 +5,7 @@ import jdk.jfr.DataAmount;
 
 public class Figure {
     public final static double num1 = 5;
-    public final double PI = 3.14;
+    public final static double PI = 3.14;
 
     public void perimert() {
 
