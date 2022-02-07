@@ -6,23 +6,23 @@ public class Main {
 
         Person age = new Person();
 
-        Person man = new Man("Angra", 29);
+        Person man = new Man("Vova", 29);
 
         man.printAge();
 
         Person woman = new Woman("Sveta", 18);
-        Person woma = new Woman("Anna");
+        Person woman1 = new Woman("Anna");
 
 //        woman.name = "Sveta";
 //        System.out.println(woman.name);
 
 
-        Person[] array = new Person[]{man, woman, woma, age};
+        Person[] array = new Person[]{man, woman, woman1, age};
         for (int i = 0; i < array.length; i++) {
             array[i].printName();
         }
 
-        Figure figure = new Figure();
+        Figure figure = new Circle();
         figure.perimert();
 
 
